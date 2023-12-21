@@ -1,5 +1,34 @@
-h1 {
-    background-color: red;
-    color: white;
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.maincontainer {
+    background-color: #f8f6f1;
+    height: 100vh;
     text-align: center;
+}
+
+.maincontainer ul {
+    list-style: none;
+}
+
+.maincontainer h1 {
+    padding: 100px 50PX 50PX;
+    font-size: 100px;
+}
+
+.maincontainer li {
+    padding: 30px;
+    font-size: 30PX;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
 }
